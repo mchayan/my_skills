@@ -132,3 +132,7 @@ with col1:
 with col2:
     st_lottie(lottie_skills, speed=1, width=300, height=300)
     
+
+
+
+
