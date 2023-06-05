@@ -79,17 +79,17 @@ pie_chart = (
         [
             ["Statistical", 335],
             ["Technical", 310],
-            ["Proactive Learner", 274],
-            ["roblem Solver", 235],
-            ["Explorer", 400]
+            ["Proactive Learning", 274],
+            ["Problem Solving", 235],
+            ["Exploring", 400]
         ],
-        radius="55%",
-        center=["50%", "50%"],
+        radius="95%",
+        center=["65%", "65%"],
         rosetype="radius",
         label_opts=opts.LabelOpts(
-            color="rgba(255, 255, 255, 0.3)",
+            color="black",
             position="inside",
-            font_size=12,
+            font_size=10,
             formatter="{b}: {d}%",
         ),
         tooltip_opts=opts.TooltipOpts(trigger="item", formatter="{b}: {d}%"),
@@ -98,8 +98,8 @@ pie_chart = (
         title_opts=opts.TitleOpts(
             title="My Skills",
             title_textstyle_opts=opts.TextStyleOpts(
-                color="#ccc",
-                font_size=14,
+                color="white",
+                font_size=25,
                 font_weight="bold",
                 align="center",
                 vertical_align="top"
@@ -111,8 +111,8 @@ pie_chart = (
             orient="vertical",
             pos_top="middle",
             pos_right="5%",
-            item_width=10,
-            item_height=10,
+            item_width=15,
+            item_height=15,
             textstyle_opts=opts.TextStyleOpts(color="white"),
         ),
     )
